@@ -1,0 +1,13 @@
+@charset"UTF-8";
+header {
+  height:110px;
+  width:645px;
+}
+nav{
+  width:645px;
+  display: flex;
+  justify-content: space-between;
+}
+main{
+  width: 645px;
+}

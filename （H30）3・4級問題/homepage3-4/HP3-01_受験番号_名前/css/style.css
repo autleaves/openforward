@@ -1,0 +1,12 @@
+header {
+  height:80px;
+}
+nav{
+  margin:10px 0 0 10px;
+  width:640px;
+ 	display: flex;
+  justify-content: space-between;
+}
+main{
+  width: 640px;
+}

@@ -1,0 +1,10 @@
+@charset"UTF-8";
+nav{
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  background-color : #ffffff;
+}
+main{
+  background-color : #ffffff;
+}
