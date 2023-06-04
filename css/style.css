@@ -38,6 +38,7 @@ body * + * {
     list-style-type: none;
     background-color: #5f4b44;
     border-radius: .5em;
+    align-items: stretch;
 }
 .site-nav > li {
     margin-top: 0;
