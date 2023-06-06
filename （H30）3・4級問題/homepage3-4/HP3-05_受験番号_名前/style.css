@@ -1,0 +1,19 @@
+BODY{
+  background-image : url(back.gif);
+  background-repeat : repeat-x;
+}
+H1{
+  font-size : 48px;
+  text-align : right;
+  color : #993333;
+}
+H2{
+  font-size : 26px;
+  color : #ffffff;
+  background-color : #cc6666;
+}
+A{
+  font-size : 24px;
+  line-height : 2em;
+  background-color : #ffcccc;
+}

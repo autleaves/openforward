@@ -1,0 +1,16 @@
+BODY{
+  background-image : url(back.gif);
+}
+TABLE{
+  background-color : #ffffff;
+}
+H2{
+  text-align : center;
+  color : #ffffff;
+  background-color : #33cc66;
+}
+UL{
+  font-weight : bold;
+  background-color : #ccff66;
+  list-style-type : none;
+}

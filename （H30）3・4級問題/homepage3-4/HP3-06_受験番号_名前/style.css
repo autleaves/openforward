@@ -1,0 +1,19 @@
+BODY{
+  background-color : #ffffcc;
+  background-image : url(back.gif);
+  background-repeat : repeat-x;
+}
+H1{
+  font-size : 58px;
+  text-align : right;
+  color : #003399;
+}
+H2{
+  border-bottom-width : 5px;
+  border-bottom-style : solid;
+  border-bottom-color : #003399;
+}
+UL{
+  line-height : 2em;
+  background-color : #ccff99;
+}
