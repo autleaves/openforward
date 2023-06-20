@@ -1,4 +1,4 @@
-@charset"UTF-8";
+@charset "UTF-8";
 nav{
   height: 100px;
   display: flex;
@@ -7,4 +7,21 @@ nav{
 }
 main{
   background-color : #ffffff;
+}
+body{
+  background-color: #999933;
+  width: 650px;
+}
+h1{
+  font-size: 50px;
+  color: #000066;
+  background-image: url(../images/back.gif);
+  display: inline-block;
+  line-height: 40px;
+  text-align: center;
+}
+h2{
+  text-align: center;
+  color: #ffffff;
+  background-color: #cc0033;
 }
