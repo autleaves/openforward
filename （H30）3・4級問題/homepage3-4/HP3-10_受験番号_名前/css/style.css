@@ -1,0 +1,42 @@
+@charset "UTF-8";
+header {
+  height:350px;
+}
+main{
+
+  display: flex;
+}
+.content1{
+  margin:100px 0 0 10px;
+  width:20%;
+}
+.content2{
+  margin:30px 0 0 10px;
+  width:40%;
+}
+.content3{
+  margin:10px 0 0 10px;
+  width:40%;
+}
+footer{
+  margin-left: 170px;
+}
+body{
+  background-color: #cccc00;
+  width: 800px;
+}
+h1{
+  font-size: 56px;
+  color: #ffffff;
+  background-color: #ff3300;
+}
+h2{
+  text-align: center;
+  color: #ffffff;
+  background-color: #ff6600;
+}
+ul li{
+  height: 2em;
+  background-color: #ffffcc;
+  list-style-type:none;
+}

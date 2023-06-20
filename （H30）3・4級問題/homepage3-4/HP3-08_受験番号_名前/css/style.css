@@ -1,0 +1,31 @@
+@charset "UTF-8";
+header {
+  height:110px;
+  width:645px;
+}
+nav{
+  width:645px;
+  display: flex;
+  justify-content: space-between;
+}
+main{
+  width: 645px;
+}
+body{
+  background-image: url(../images/back.gif);
+}
+h1{
+  font-size: 320%;
+  text-align: right;
+  background-color: #ffff99;
+}
+h2{
+  font-size: 180%;
+  border-width: 7px 0 0 0 ;
+  border-style:dotted;
+  border-color: #993300;
+}
+ol li{
+  font-size: 120%;
+  background-color: #ff9933;
+}
