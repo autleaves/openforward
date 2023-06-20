@@ -1,4 +1,4 @@
-@charset"UTF-8";
+@charset "UTF-8";
 header {
   height: 410px;
   width:640px;
@@ -11,4 +11,19 @@ nav{
 }
 main{
   width: 640px;
+}
+body{
+  background-image: url(../images/back.gif);
+  background-repeat: repeat-x;
+  background-size: 150px;
+}
+h1{
+  font-size: 48px;
+  text-align: right;
+  color: #993333;
+}
+h2{
+  font-size: 24px;
+  height: 2em;
+  background-color: #ffcccc;
 }

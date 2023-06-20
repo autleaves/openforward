@@ -1,4 +1,4 @@
-@charset"UTF-8";
+@charset "UTF-8";
 header {
   height:100px;
 }
@@ -12,4 +12,27 @@ main{
 }
 .content2{
   width: 78%;
+}
+body{
+  width: 650px;
+  margin-left: 10px;
+  background-image: url(../images/back.gif);
+  background-repeat: repeat-y ;
+}
+h1{
+  font-size: 380%;
+  background-color: #99cccc;
+}
+h2{
+  font-size: 200%;
+  color: #ffffff;
+  background-color: #339966;
+}
+ul li{
+  font-size: 1em;
+  height: 3em;
+  background-color: #ccffff;
+}
+td{
+  vertical-align: top;
 }
