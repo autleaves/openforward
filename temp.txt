@@ -1,0 +1,3 @@
+Two Emacs manuals, the GNU Emacs manual and An Introduction to Programming in Emacs Lisp, can be purchased in printed form from the FSF store.
+
+These manuals, along with the Emacs Lisp Reference Manual and several other manuals documenting major modes and other optional features, can also be read online. They are also distributed with Emacs in Info format; type C-h i in Emacs to view them.
