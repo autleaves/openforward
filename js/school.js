@@ -127,3 +127,9 @@ function judge_num(num1, num2) {
         alert(num1+' は '+ num2 + ' より小さいです');
     }
 }
+
+
+const size = 20;
+const result = (size >= 30) ? '粗大ゴミ':'不燃ごみ';
+console.log(result);
+
