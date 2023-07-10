@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>23250012-コウヨウ</title>
+</head>
+
+<body>
+    <h1>問題01</h1>
+    <script>
+        let cond = true;
+        let pref = '';
+        while(cond) {
+            pref = prompt('住所はどこですか？');
+            judge_addr(pref);
+            if(confirm("続きますか？") != true){
+                cond = false;
+            }
+        }
+        function judge_addr(pref) {
+            switch (pref) {
+                case 'Osaka':
+                    alert('住所は大阪です');
+                    break;
+                case 'Tokyo':
+                    alert('住所は東京です');
+                    break;
+                default:
+                    alert('住所はその他です');
+            }
+        }
+        for(let i = 1; i <= 5; i++) {
+            console.log('${i}回目の処理');
+        }
+    </script>
+</body>
+</html>

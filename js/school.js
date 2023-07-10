@@ -133,3 +133,27 @@ const size = 20;
 const result = (size >= 30) ? '粗大ゴミ':'不燃ごみ';
 console.log(result);
 
+let i = true;
+let ranking = 0;
+while(i) {
+    ranking = parseInt(prompt('ランキングを入力してください'));
+    judge_medal(ranking);
+    if(confirm("続きますか？") != true){
+        i = false;
+    }
+}
+function judge_medal(ranking) {
+    switch (ranking) {
+        case 1:
+            alert('金メダル');
+            break;
+        case 2:
+            alert('銀メダル');
+            break;
+        case 3:
+            alert('銅メダル');
+            break;
+        default:
+            alert('メダルなし');
+    }
+}
