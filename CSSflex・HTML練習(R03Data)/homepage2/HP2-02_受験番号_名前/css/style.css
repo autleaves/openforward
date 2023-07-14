@@ -1,0 +1,30 @@
+@charset "UTF-8";
+body{
+  background-image: url(../images/back.png);
+  background-repeat: repeat-x;
+}
+h1{
+  font-style: italic;
+  font-size: 320%;
+  background-color: #ccccff;
+}
+h2{
+  border-bottom: 5px dashed #333399;
+}
+ul li{
+  font-size: 120%;
+  background-color: #ffcc99;
+  list-style-type: square;
+}
+header{
+  height: 150px;
+  width: 645px;
+}
+nav{
+  width: 645px;
+  display: flex;
+  justify-content: space-between;
+}
+main{
+  width: 645px;
+}

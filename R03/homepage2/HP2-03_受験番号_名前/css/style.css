@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+ body {
+    background-color: #c99;
+    background-image: url(../images/back.png);
+    background-repeat: repeat-y;
+}
+
+table {
+    background-color: #fff;
+}
+
+h1 {
+    font-style: italic;
+    font-size: 350%;
+    color: #603;
+}
+
+ul {
+    line-height: 2.5em;
+    background-color: #fcc;
+    list-style-type: none;
+}
+
+header {
+    height: 80px;
+    width: 800px;
+    background-color: #fff;
+}
+
+header img {
+    float: left;
+}
+
+main {
+    width: 800px;
+    display: flex;
+    background-color: #fff;
+}
+
+.content1 {
+    margin-top: 200px;
+    width: 180px;
+    font-size: 90%;
+}
+
+.content2 {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 620px;
+}
