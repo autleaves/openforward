@@ -26,11 +26,12 @@ body {
     background-color: #FFF;
 }
 
-body * + * {
+/* body * + * {
     margin-top: 1.5em;
-}
+} */
 
-.container {
+.top-container {
     max-width: var(--page-width);
     margin: 0 auto;
 }
+
