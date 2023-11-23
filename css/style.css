@@ -7,17 +7,15 @@
     padding-left: .5em;
     background-color: bisque;
     border-radius: .5em;
-    justify-content: space-between;
 }
 .nav-brand {
   display: flex;
   justify-content: center;
   align-items: center;
-  line-height: .7;
-  flex-grow: 3;
+  background-color: #cc6b5a;
 }
 .nav-items {
-  
+  margin-left: auto;
 }
 
 .site-nav ul {
@@ -51,7 +49,10 @@
   font-size: .9rem;
   align-self: center;
 }
-
+.nav-items > li + li::before {
+  content: "|";
+  padding-right: .5em;
+}
 /* .site-nav > li {
     margin-top: 0;
 }
