@@ -1,41 +1,40 @@
 @charset "utf-8";
 @import url(base.css);
 
-
+/* nav-programme ---start */
 .site-nav {
     display: flex;
     padding-left: .5em;
     background-color: bisque;
     border-radius: .5em;
 }
+.nav-items {
+  margin-left: auto;
+}
+ul[class^="nav"] {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+ul[class^="nav"] a{
+  display: block;
+  text-decoration: none;
+  color: inherit;
+
+}
+/* nav-programme ---end */
+
+/* nav-brand ---start */
 .nav-brand {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #cc6b5a;
 }
-.nav-items {
-  margin-left: auto;
-}
-
-.site-nav ul {
-  display: flex;
-  list-style-type: none;
-}
-.site-nav ul li {
-  display: block;
-  padding: .5em;
-  background-color: #cc6b5a;
-  color: white;
-  text-decoration: none;
-}
-.site-nav ul li:nth-child(odd) {
-  background-color: #dfbeb9;
-}
-
 .nav-brand span + span {
   padding-left: .2rem;
 }
+
 .nav-brand > .circle {
   width: 1.5rem;
   height: 1.5rem;
@@ -49,45 +48,51 @@
   font-size: .9rem;
   align-self: center;
 }
+/* nav-brand ---end */
+
+/* nav-items ---start */
+.nav-items a {
+  color: black;
+  font-size: 1.5rem;
+  background-color: #cc6b5a;
+}
+
 .nav-items > li + li::before {
   content: "|";
   padding-right: .5em;
 }
-/* .site-nav > li {
-    margin-top: 0;
+.nav-items li:nth-child(even) {
+  background-color: #dfbeb9;
 }
-.site-nav:first-child {
-  
+/* nav-items ---end */
+
+
+
+
+/* nav-icons ---start */
+.nav-icons img {
+  width: 1em;
+  height: 1em;
 }
-.site-nav > li > a {
-    display: block;
-    padding: .5em 1em;
-    background-color: #cc6b5a;
-    color: white;
-    text-decoration: none;
+/* nav-icons ---end */
+
+
+/* main ---start */
+.flex {
+  display: flex;
 }
-.site-nav > li + li {
-    margin-left: 1.5em;
-} 
-.site-nav > .nav-right {
-  margin-left: auto;
-  margin-right: 0.5em;
-} */
 .main {
-  padding-top: 1em;
-  padding-bottom: 1em;
+  margin-top: 1em;
 }
-/*
-h1 {
-  font-size: 3.375rem;
-  color: #663333;
-  background-color: #b2f1ba;
+.main-left, 
+.main-right {
+  flex-basis: 50%;
+  flex-grow: 1;
+  flex-shrink: 1;
 }
-
-h2 {
-  font-style: italic;
-  color: #ffffff;
-  background-color: #b2f1ba;
+.main-left img{
+  border-radius: 50%;
+  width: 65%;
+  /* height: 65%; */
 }
-*/
-
+/* main ---end */
