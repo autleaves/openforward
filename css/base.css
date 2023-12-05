@@ -37,3 +37,6 @@ body {
 .flex {
     display: flex;
   }
+.border {
+    border: 1px solid #9ce66b;
+}
