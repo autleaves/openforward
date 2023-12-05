@@ -34,7 +34,8 @@ ul.nav-items li a {
     font-size: 1.2em;
     padding-top: 1.9em;
     border-radius: 50%;
-    background-color: rgb(227, 112, 112);
+    box-shadow: .4em .2em .1em .1em rgb(223, 219, 219);
+    background-color: rgb(235, 165, 165);
 }
 /* nav-programme ---end */
 

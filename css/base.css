@@ -12,7 +12,7 @@
 }
 :root {
     box-sizing: border-box;
-    --page-width: 1080px;
+    --page-width: 1280px;
 }
 
 *,
@@ -34,4 +34,6 @@ body {
     max-width: var(--page-width);
     margin: 0 auto;
 }
-
+.flex {
+    display: flex;
+  }
