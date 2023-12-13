@@ -5,9 +5,6 @@
 .site-nav {
     display: flex;
     margin-top: 2em;
-    /* padding-left: .5em;
-    border-radius: .5em;
-    border: 1px solid #e69c6b; */
 }
 .nav-menu {
   margin-left: auto;
@@ -27,7 +24,6 @@ ul[class^="nav"] a{
 .nav-brand {
   justify-content: center;
   align-items: center;
-  /* border: 1px solid #9ce66b; */
 }
 .nav-brand span + span {
   padding-left: .2rem;
@@ -49,7 +45,6 @@ ul[class^="nav"] a{
 
 /* nav-menu ---start */
 .nav-menu {
-  /* border: 1px solid #9ce66b; */
   font-size: 1em;
   align-items: center;
 }
@@ -83,7 +78,6 @@ ul[class^="nav"] a{
 /* main ---start */
 
 .main {
-  margin-top: 3em;
   padding: 0 8em;
 }
 .main-column {
@@ -124,10 +118,10 @@ div.profile p {
   box-shadow: .4em .2em .1em .1em rgb(223, 219, 219);
 }
 .nav-buttons .nav-button-resume {
-  background-color: #f39354;
+  background-color: #f1ab7c;
 }
 .nav-buttons .nav-button-exercises {
-  background-color: #f03f3f;
+  background-color: #f88c8c;
 }
 .nav-buttons .nav-button-contact {
   background-color: #a9d6f0;
@@ -137,7 +131,6 @@ div.profile p {
 /* footer ---start */
 footer {
   border-top: 1px solid #d1cfcf;
-  margin-top: 2em;
   color: #afacac;
 }
 .copyright {
