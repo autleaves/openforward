@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+
+/* for global  --start */
+:root {
+    box-sizing: border-box;
+    --page-width: 745px;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+.top-container {
+    max-width: var(--page-width);
+    margin: 0 auto;
+}
+body {
+    color: #fff;
+    background-color: #006;
+}
+/* for global --end   */
+
+/* generic class  --start */
+.flex {
+    display: flex;
+  }
+.margin-0 {
+    margin: 0;
+}
+.margin-tb-0 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.padding-0 {
+    padding: 0;
+}
+.margin-t-5em {
+    margin-top: 5em;
+}
+.font-em85 {
+    font-size: .85em;
+}
+/* generic class --end   */
+
+/* for debugging --start */
+.border-green {
+    border: 2px dotted greenyellow;
+}
+.border-red {
+    border: 2px dotted red;
+}
+.border-blue {
+    border: 2px dotted blue;
+}
+.border-white {
+    border: 2px dotted white;
+}
+/* for debugging --end   */
