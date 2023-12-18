@@ -9,8 +9,10 @@
     <div class="sample">class属性が sample ２個目</div>
     <div class="sample">class属性が sample ３個目</div>
     <script>
-        const element = document.querySelector('.sample');
-        console.log(element);
+        const elements = document.querySelectorAll('.sample');
+        for (const elem of elements) {
+            console.log(elem);
+        }
     </script>
 </body>
 </html>
