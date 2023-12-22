@@ -1,0 +1,36 @@
+@charset "utf-8";
+@import url(base.css);
+
+.top-container {
+    background-image: url(../images/back.png);
+}
+header {
+    height: 120px;
+}
+h1 {
+    font-style: italic;
+    font-size: 350%;
+    color: #336633;
+}
+ul {
+    line-height: 2.5;
+    background-color: #66cc66;
+    list-style-type: circle;
+}
+.content1 {
+    width: 150px;
+}
+.content2 {
+    width: 500;
+    margin-left: 20px;
+}
+td {
+    vertical-align: top;
+}
+
+/* table,
+table th, 
+table td {
+    border: 1px solid red;
+} */
+
