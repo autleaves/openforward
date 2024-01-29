@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +10,14 @@
     <div class="sample">１個目のクラス</div>
     <div class="sample">２個目のクラス</div>
     <div class="sample">３個目のクラス</div>
-    <script src="js/02-1.js"></script>
+    <!-- <script src="js/02-1.js"></script> -->
+    <script>
+        const elems = document.querySelectorAll('.sample');
+        const len = elems.length;
+        console.log("Length of elems:" + elems.length);
+        for (const elem of elems) {
+            console.log(elem);
+        }
+    </script>
 </body>
 </html>
