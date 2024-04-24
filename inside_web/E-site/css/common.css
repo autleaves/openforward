@@ -19,6 +19,7 @@ a {
 a:hover {
 	color: #f20524;
 }
+/*--logo から--*/
 header h1 {
 	margin: 0 0 21px 0;
 	padding-top: 27px;
@@ -27,6 +28,9 @@ header h1 {
 header h1 a {
 	display: inline-block;
 }
+/*--logo まで--*/
+
+/*--パンくず から--*/
 #topicpath {
 	margin-bottom: 30px;
 }
@@ -42,10 +46,14 @@ header h1 a {
 #topicpath ol li a {
 	padding-right: 15px;
 }
+/*--パンくず まで--*/
+
 #contents {
 	margin-bottom: 30px;
 	overflow: hidden;
 }
+
+/*--sub から--*/
 .btn_field {
 	margin-bottom: 30px;
 }
@@ -61,6 +69,9 @@ header h1 a {
 .btn_field dd {
 	text-align: center;
 }
+/*--sub まで--*/
+
+/*--ページの先頭へ戻る から--*/
 #pagetop {
 	margin-bottom: 0;
 	float: right;
@@ -73,6 +84,9 @@ header h1 a {
 	background-repeat: no-repeat;
 	background-position: left center;
 }
+/*--ページの先頭へ戻る まで--*/
+
+/*--footer から--*/
 footer #info_field {
 	min-height: 42px;
 	padding: 15px 0 7px 0;
@@ -92,6 +106,8 @@ address {
 #copyright small {
 	font-size: 100%;
 }
+/*--footer まで--*/
+
 #main h2 {
 	margin: 0 0 20px 0;
 	padding: 5px 0 0 20px;
@@ -100,6 +116,7 @@ address {
 	background-position: left center;
 	font-size: 150%;
 }
+/*--トップページの三つ画像 から--*/
 #pickup_field {
 	width: 840px;
 	margin: 0 auto 30px auto;
@@ -138,12 +155,16 @@ address {
 #pickup_field ul li img {
 	vertical-align: bottom;
 }
+/*--トップページの三つ画像 まで--*/
+
+/*--トップページのトピックス から--*/
 #topics ul li time {
 	display: inline-block;
 	width: 9.3em;
 	font-weight: bold;
 	text-indent: 0;
 }
+/*--トップページのトピックス まで--*/
 sec_field p:last-child {
 	margin-bottom: 0;
 }
@@ -181,21 +202,4 @@ table tr td:last-child {
 }
 .pic_field:last-of-type {
 	margin-bottom: 0;
-}
-form p {
-	margin-bottom: 30px;
-}
-form p:last-child {
-	margin-bottom: 0;
-}
-input, textarea {
-	margin-top: 7px;
-}
-select {
-	width: 75px;
-}
-textarea {
-	width: 300px;
-	height: 140px;
-	overflow-y: scroll;
 }
