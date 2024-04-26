@@ -31,7 +31,7 @@ nav ul li a {
 nav ul li#nav_introduction a {
 	background-image: url(../images/btn_navigation1.png);
 }
-nav ul li#nav_schedule a {
+nav ul li#nav_museum a {
 	background-image: url(../images/btn_navigation2.png);
 }
 nav ul li#nav_gallery a {
@@ -61,10 +61,16 @@ nav ul li#nav_service a {
 	font-size: 175%;
 	text-align: center;
 }
-#introduction #nav_introduction a, #schedule #nav_schedule a, #gallery #nav_gallery a, #tickets #nav_tickets a, nav ul li a:hover {
+#introduction #nav_introduction a, 
+#museum #nav_museum a, 
+#gallery #nav_gallery a, 
+#service #nav_service a, 
+nav ul li a:hover {
 	background-position: 0 -64px;
 }
-.pickup1, .pickup2, .pickup3 {
+#pickup_field #pickup1, 
+#pickup_field #pickup2, 
+#pickup_field #pickup3 {
 	width: 840px;
 }
 /* 基本レイアウト ここまで↑ */
@@ -115,6 +121,15 @@ nav ul li#nav_service a {
 /* 「日本書道概要」ページ ここまで↑ */
 
 /* 「書道美術館紹介」ページ ここから↓ */
+.museum_intro figure {
+	margin: 0;
+	padding-right: 2.5em;
+	float: left;
+}
+.museum_intro p {
+	line-height: 1.5em;
+}
+
 
 /* 「書道美術館紹介」ページ ここまで↑ */
 

@@ -6,27 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>12-コウヨウ</title>
     <style>
-        .normal {
-            font-size: 16px;
-            color: black;
-            background-color: white;
-        }
-        .warning {
-            font-size: 36px;
-            color: red;
-            background-color: yellow;
-        }
     </style>
 </head>
 <body>
 
-    <!-- <img src="images/sample.jpg" class="img" width="200" height="200"> -->
-    <!-- <div class="profile" data-id="100" data-user-name="zaru">zaru</div> -->
-    <p class="normal">テキストです</p>
+    <div class="sample">class属性がsample_1個目</div>
+    <div class="sample">class属性がsample_2個目</div>
+    <div class="sample">class属性がsample_3個目</div>
     <script>
-        const text = document.querySelector('p');
-        text.classList.remove('normal');
-        text.classList.add('warning');
+        const elem = document.querySelectorAll('.sample');
+        console.log(elem.length);
     </script>
 </body>
 </html>
