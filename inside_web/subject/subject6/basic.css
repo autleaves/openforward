@@ -1,0 +1,86 @@
+body {
+	padding: 0px;
+	margin: 0px;
+}
+#wrap {
+	width: 800px;
+	padding: 5px;
+	margin: 0px auto;
+	border: 1px solid #666666;
+}
+nav {
+	background-color: #FFFFFF;
+	float: left;
+	width: 150px;
+	padding: 0px;
+	margin: 0px;
+}
+footer {
+	clear: both;
+	text-align: right;
+	color: #FFFFFF;
+	background-color: #660000;
+}
+.logo {
+	margin: 0px;
+	padding: 0px;
+	height: 200px;
+	width: 600px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.navi_bt {
+	height: 50px;
+	width: 150px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+main {
+	background-color: #FFFFFF;
+	float: right;
+	width: 600px;
+	padding: 10px;
+}
+
+h1 {
+	font-size: x-large;
+	line-height: 2em;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+}
+h2 {
+	font-size: large;
+	margin: 0px;
+	padding: 0px;
+	line-height: 2em;
+	font-weight: bold;
+}
+p {
+	font-size: medium;
+	margin: 0px;
+	padding: 0px;
+	line-height: 1.5em;
+}
+li {
+	font-size: medium;
+	margin: 0px;
+	padding: 0px;
+	line-height: 2em;
+	text-indent: 20px;
+	list-style-position: inside;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+ol {
+	margin: 0px;
+	padding: 0px;
+}
