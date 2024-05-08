@@ -42,6 +42,7 @@ nav ul li#nav_service a {
 }
 #pickup_field img {
 	width: 840px;
+	height: 416px;
 }
 #main {
 	width: 610px;
@@ -129,7 +130,20 @@ nav ul li a:hover {
 .museum_intro p {
 	line-height: 1.5em;
 }
-
+.enter_btns a {
+	display: inline-block;
+	/* border: 1px solid #0F0; */
+}
+.enter_btns {
+	width: inherit;
+	text-align: center;
+	/* border: 1px solid #F00; */
+}
+.enter_btns a img {
+	width: 100px;
+	border-radius: 8px;
+	/* border: 1px solid #00F; */
+}
 
 /* 「書道美術館紹介」ページ ここまで↑ */
 
