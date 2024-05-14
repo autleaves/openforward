@@ -9,7 +9,7 @@
 
 <body id="museum">
 <header id="top">
-	<h1><a href="index.html"><img src="images/logo.gif" alt="日本の書道美術館"></a></h1>
+	<h1><a href="index.html"><img src="images/logo.jpg" alt="日本の書道美術館"></a></h1>
 </header>
 <nav>
 	<ul>
@@ -34,9 +34,13 @@
 				<div class="museum_intro">
 					<figure>
 						<img src="images/pic_introduction1.jpg">
-						<div class="enter_btn">
-							<a href="gallery.html#museum_naridayama" class="">主な所蔵品</a>
-							<a href="service.html#addr_naridayama" class="">ご利用案内</a>
+						<div class="enter_btns">
+							<a href="gallery.html#museum_naritasan" class="">
+								<img src="images/btn1.jpg" alt="主な所蔵品">
+							</a>
+							<a href="service.html#addr_naritasan" class="">
+								<img src="images/btn2.jpg" alt="ご利用案内">
+							</a>
 						</div>
 					</figure>
 					<div class="">
@@ -63,9 +67,13 @@
 				<div class="museum_intro">
 					<figure>
 						<img src="images/pic_introduction1.jpg">
-						<div class="enter_btn">
-							<a href="gallery.html#museum_naridayama" class="">主な所蔵品</a>
-							<a href="service.html#addr_naridayama" class="">ご利用案内</a>
+						<div class="enter_btns">
+							<a href="gallery.html#museum_wakayama" class="">
+								<img src="images/btn1.jpg" alt="主な所蔵品">
+							</a>
+							<a href="service.html#addr_wakayama" class="">
+								<img src="images/btn2.jpg" alt="ご利用案内">
+							</a>
 						</div>
 					</figure>
 					<div class="">
@@ -89,9 +97,13 @@
 				<div class="museum_intro">
 					<figure>
 						<img src="images/pic_introduction1.jpg">
-						<div class="enter_btn">
-							<a href="gallery.html#museum_naridayama" class="">主な所蔵品</a>
-							<a href="service.html#addr_naridayama" class="">ご利用案内</a>
+						<div class="enter_btns">
+							<a href="gallery.html#museum_taito" class="">
+								<img src="images/btn1.jpg" alt="主な所蔵品">
+							</a>
+							<a href="service.html#addr_taito" class="">
+								<img src="images/btn2.jpg" alt="ご利用案内">
+							</a>
 						</div>
 					</figure>
 					<div class="">
@@ -124,11 +136,14 @@
 </div>
 <footer>
 	<p id="pagetop"><a href="#top">ページの先頭へ戻る</a></p>
-	<div id="info_field">
-		<address>電話 0120-XXX-001 FAX 0120-XXX-002</address>
-		<p id="copyright"><small>Copyright 2024 日本の書道美術館 All rights reserved.</small></p>
-	</div>
 </footer>
+<template id="tpl_footer">
+	<div id="info_field">
+		<address></address>
+		<p id="copyright"><small></small></p>
+	</div>
+</template>
+<script src="js/template_footer.js"></script>
 <script src="js/slideshow.js"></script>
 </body>
 </html>
