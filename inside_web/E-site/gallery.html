@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <title>主な所蔵品</title>
 <link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/responsive.css" media="screen and (max-width: 767px)">
+<link rel="stylesheet" href="css/modal.css">
 </head>
 
 <body id="gallery">
@@ -32,22 +32,31 @@
 			<section class="sec_field" id="museum_naritasan">
 				<h2>成田山書道美術館</h2>
 				<div class="pic_field">
-					<figure>
-						<img src="images/collection/naritasan_1.png" alt="">
-						<figcaption></figcaption>
-						<div class="">
-							<input type="image" id="" alt="拡大" src="images/expand.jpg">
+					<div class="">
+						<figure>
+							<figcaption></figcaption>
+							<img src="images/collection/naritasan_1.png" alt="">
+						</figure>
+						<div>
+							<button class="btn_expand" id="btn1_expand">拡大</button>
+							<!-- <input type="image" id="" alt="拡大" src="images/expand.jpg"> -->
 						</div>
-					</figure>
+					</div>
 					<figure>
-						<img src="images/collection/naritasan_2.png" alt="">
 						<figcaption></figcaption>
+						<img src="images/collection/naritasan_2.png" alt="">
+						<div class="">
+							<button class="btn_expand" id="btn2_expand">拡大</button>
+						</div>
 					</figure>
 				</div>
 				<div class="pic_field">
 					<figure>
-						<img src="images/collection/naritasan_3.png" alt="">
 						<figcaption></figcaption>
+						<img src="images/collection/naritasan_3.png" alt="">
+						<div class="">
+							<button class="btn_expand" id="btn3_expand">拡大</button>
+						</div>
 					</figure>
 					<figure>
 						<img src="images/collection/naritasan_4.png" alt="">
@@ -128,6 +137,41 @@
 		<p id="copyright"><small>Copyright 2024 日本の書道美術館 All rights reserved.</small></p>
 	</div>
 </footer>
-<script src="js/slideshow.js"></script>
+<div class="modal" id="modal">
+	<div class="modal-backdrop"></div>
+	<div class="modal-body">
+		<button class="modal-close" id="close">close</button>
+		<h2>Wombat Newsletter</h2>
+		<div id="show_img"></div>
+	</div>
+</div>
+<script type="text/javascript">
+	let buttons = document.querySelectorAll('.btn_expand');
+	let close = document.getElementById('close');
+	let modal = document.getElementById('modal');
+
+	let pic_chosed;
+
+	for(let i = 0; i < buttons.length; i++){
+		btn_addEventListener(buttons[i]);
+	}
+
+	close.addEventListener('click', function (event) {
+		event.preventDefault();
+		modal.style.display = 'none';
+	});
+
+	// function expand (btn_id) {
+	// 	btn_chosed = document.getElementById(btn_id);
+	// 	btn_addEventListener(btn_chosed);
+	// }
+	function btn_addEventListener(button) {
+		button.addEventListener('click', function (event,img_id) {
+			event.preventDefault();
+			modal.style.display = 'block';
+		});
+	}
+
+</script>
 </body>
 </html>
