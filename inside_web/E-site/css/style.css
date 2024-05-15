@@ -29,16 +29,16 @@ nav ul li a {
 	padding-top: 64px;
 }
 nav ul li#nav_introduction a {
-	background-image: url(../images/btn_navigation1.png);
+	background-image: url(../images/btn_navigation1.jpg);
 }
 nav ul li#nav_museum a {
-	background-image: url(../images/btn_navigation2.png);
+	background-image: url(../images/btn_navigation2.jpg);
 }
 nav ul li#nav_gallery a {
-	background-image: url(../images/btn_navigation3.png);
+	background-image: url(../images/btn_navigation3.jpg);
 }
 nav ul li#nav_service a {
-	background-image: url(../images/btn_navigation4.png);
+	background-image: url(../images/btn_navigation4.jpg);
 }
 #pickup_field img {
 	width: 840px;
