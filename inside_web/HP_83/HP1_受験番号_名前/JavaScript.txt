@@ -1,0 +1,26 @@
+■以下のスクリプトをヘッダー部に定義します。
+
+<SCRIPT language="JavaScript">
+<!--
+timeID = 10;	//　割り込みタイマ用
+function formClock() {
+c = new Date();
+year = c.getYear(); if (year < 2000) year = year + 1900;
+day = new Array("日","月","火","水","木","金","土");
+document.formMyClock.myClock.value=year+"年"+(c.getMonth()+1)+"月"+c.getDate()+"日("
++day[c.getDay()]+")　"+c.getHours()+"時"+c.getMinutes()+"分";
+clearTimeout(timeID);
+timeID = setTimeout('formClock()',1000);
+}
+// -->
+</SCRIPT>
+
+■ヘッダーのスクリプトを実行するコマンドを<BODY>タグの中に記述します。
+
+<BODY onLoad="formClock();">
+
+■表示させたい場所にフォームを記述します。
+
+<FORM name="formMyClock">
+<INPUT type="TEXT" name="myClock" size="31" style="width : 220px; text-align : center;">
+</FORM>

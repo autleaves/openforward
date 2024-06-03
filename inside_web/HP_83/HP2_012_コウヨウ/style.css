@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+.container {
+    width: 750px;
+}
+
+body {
+    background-image: url(./back.png);
+    background-repeat: repeat-y;
+}
+
+h1 {
+    text-align: left;
+    font-size: 200%;
+    background-color: #ffcc66;
+    margin-bottom: 0;
+}
+h2 {
+    text-align: center;
+    background-color: #66cc99;
+}
+h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul {
+    font-style: italic;
+    font-size: 120%;
+    color: #cc6600;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    /* justify-content: center; */
+    margin: 0;
+}
+
+header, main {
+    width: 640px;
+}

@@ -1,0 +1,45 @@
+body{
+    background-image: url(./back1.png);
+    background-repeat: repeat-y;
+}
+main {
+    display: flex;
+    flex-direction: row;
+}
+#navi{
+    flex: auto;
+    vertical-align: top;
+    background-color: #ccff66;
+}
+
+#main{
+    flex: auto;
+    background-image: url(./back2.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    width: 600px;
+}
+
+h1 {
+    font-size: 320%;
+    text-align: right;
+}
+h2 {
+    border-top: 8px;
+    border-style: double;
+    border-color: #003399;
+}
+ul {
+    line-height: 2.5;
+    background-color: #ffffff;
+    list-style-type: none;
+}
+a:hover {
+    font-style: italic;
+    text-decoration: none;
+}
+
+.cell {
+    font-weight: bold;
+    color: #006633;
+}
