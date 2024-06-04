@@ -1,19 +1,26 @@
+
+.container {
+    width: 800px;
+}
 body{
     background-image: url(./back1.png);
     background-repeat: repeat-y;
 }
+header {
+    width: 738px;
+}
+
 main {
     display: flex;
     flex-direction: row;
+    width: 738px;
 }
 #navi{
-    flex: auto;
     vertical-align: top;
     background-color: #ccff66;
 }
 
 #main{
-    flex: auto;
     background-image: url(./back2.jpg);
     background-repeat: no-repeat;
     background-position: right bottom;
@@ -25,14 +32,17 @@ h1 {
     text-align: right;
 }
 h2 {
-    border-top: 8px;
-    border-style: double;
-    border-color: #003399;
+    margin-top: 0;
+    border-top-width: 8px;
+    border-top-style: double;
+    border-top-color: #003399;
 }
 ul {
     line-height: 2.5;
     background-color: #ffffff;
     list-style-type: none;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 a:hover {
     font-style: italic;
@@ -42,4 +52,7 @@ a:hover {
 .cell {
     font-weight: bold;
     color: #006633;
+}
+textarea {
+    overflow-y: scroll;
 }
