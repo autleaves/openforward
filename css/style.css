@@ -35,7 +35,7 @@ ul[class^="nav"] a{
   background-color: aqua;
 }
 .nav-brand > .name {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 .nav-brand > .profession {
   font-size: .9rem;
