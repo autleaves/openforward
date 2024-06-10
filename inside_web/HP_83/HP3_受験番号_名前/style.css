@@ -1,0 +1,16 @@
+BODY{
+  background-image : url(back.png);
+}
+H1{
+  font-size : 320%;
+  text-align : center;
+  color : #ff9933;
+}
+H2{
+  font-style : italic;
+}
+UL{
+  font-size : 120%;
+  line-height : 2em;
+  background-color : #66ffcc;
+}
