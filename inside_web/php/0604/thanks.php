@@ -14,6 +14,12 @@ $nickname=htmlspecialchars($nickname);
 $email=htmlspecialchars($email);
 $goiken=htmlspecialchars($goiken);
 
+$dsn = 'mysql:dbname=phpkiso;host=localhost';
+$user = 'root';
+$passwd = '';
+$dbh = new PDO($dsn, $user, $passwd);
+$dbh->query('SET NAMES utf8');
+
     print $nickname;
     print'様<br>';    
     print'ご意見ありがとうございました。<br>'; 
@@ -29,8 +35,12 @@ $goiken=htmlspecialchars($goiken);
     $mail_head = 'From:xxx@xxx.co.jp';
     mb_language('Japanese');
     mb_internal_encoding("UTF-8");
-    mb_send_mail($email, $mail_sub, $mail_body, $mail_head)
+    mb_send_mail($email, $mail_sub, $mail_body, $mail_head);
 
+    $sql = 'insert into anketo(nickname, email, goiken) values("'.$nickname.'","'.$email.'","'.$goiken.'")';
+    $stmt = $dbh->prepare($sql);
+    $stmt->execute();
+    $dbh = null;
 ?>
 
 </body>
