@@ -2,9 +2,9 @@
 let btns = document.querySelectorAll('button');
 for(let i = 0; i < btns.length; i++){
     btn_addEventListener(btns[i], i);
-    console.log(`btns length= ${btns.length}`);
+    // console.log(`btns length= ${btns.length}`);
     const price = parseInt(document.querySelector(`.price_${i}`).textContent);
-    console.log(`price = ${price}`);
+    // console.log(`price = ${price}`);
 }
 function btn_addEventListener(btn, i) {
     btn.addEventListener('click', function () {
