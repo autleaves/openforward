@@ -78,6 +78,7 @@ ul[class^="nav"] a{
 /* main ---start */
 
 .main {
+  display: flex;
   padding: 0 8em;
 }
 .main-column {
